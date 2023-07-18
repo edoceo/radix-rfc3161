@@ -1,0 +1,24 @@
+{
+	"name": "edoceo/radix-rfc3161",
+	"type": "library",
+	"description": "RFC3161 Timestamp Authority Client",
+	"keywords": [
+		"rfc3161",
+		"timestamp"
+	],
+	"homepage": "http://edoceo.com/radix",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0",
+		"ext-curl": "*",
+		"ext-hash": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Edoceo\\Radix\\": "lib/"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/edoceo/radix-rfc3161/issues"
+	}
+}
